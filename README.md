@@ -7,7 +7,8 @@ To set up this repository on a local machine, I would recommend running the foll
 
 ```
 $ python3 -m venv venv
-$ source venv/bin/activate
+// $ source venv/bin/activate (linux?)
+$ venv\Scripts\activate
 $ pip3 install -r requirements.txt
 ```
 
