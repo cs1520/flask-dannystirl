@@ -6,10 +6,16 @@ A minimal app using the Flask framework
 To set up this repository on a local machine, I would recommend running the following commands:
 
 ```
-$ python3 -m venv venv
-// $ source venv/bin/activate (linux?)
-$ venv\Scripts\activate
+$ python3 -m venv venv_name
+// $ source venv/bin/activate (linux/cloudshell)
+$ venv_name\Scripts\activate
 $ pip3 install -r requirements.txt
+
+"deactivate" exits the venv
+"pip3 install flask" installs flask
+"set FLASK_APP=app_name.py" sets the flask app
+"set FLASK_ENV=development" sets the mode
+"flask run" runs the app
 ```
 
 This will create a new Python virtualenv and download Flask. 
